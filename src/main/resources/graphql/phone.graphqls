@@ -1,0 +1,11 @@
+type PhoneDO{
+   phoneNumber: String!
+   isValid: Boolean
+   phoneNumberType: String
+}
+
+
+type Query{
+  phone: PhoneDO
+  phones: [PhoneDO]
+}
