@@ -1,14 +1,14 @@
 # This project gives brief introduction about using GraphQL with Spring-Boot
 
 ## Versions of components used:
-##-----------------------------
+
 spring-boot.version: 2.0.4.RELEASE
 graphql-spring-boot.version: 5.0.2
 graphql-java-tools.version: 4.3.0
 
  
 ## Steps to setup this project:
-##-----------------------------
+
 1. Clone using following command:
 git clone 
 
@@ -22,17 +22,17 @@ mvn clean install
 
 
 ## URL for Voyager
-##----------------
+
 http://localhost:8090/voyager
 
 
 ## URL for graphiql
-##-----------------
+
 http://localhost:8090/graphiql
 
 
 ##Introduction
-##------------
+
 ### Phone -> No input parameter from user. Returns single object of type 'PhoneDO'.
 ### Request:
 { phone {
